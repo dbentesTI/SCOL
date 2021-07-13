@@ -53,6 +53,7 @@ body {
     position: absolute;
     right: 19%;
     bottom: 69.5%;
+    border: 0;
 }
 #imagemprincipal {
     max-width:200px;
@@ -69,8 +70,10 @@ body {
     border-radius: 10px;
     position: absolute;
     right: 4%;
-    bottom: 90%;
-    width: 100px;
+    bottom: 89%;
+    width: 120px;
+    padding: 5px;
+    border: 0;
 }
 #a {
     color: black;

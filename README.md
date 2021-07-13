@@ -1,2 +1,2 @@
-# COL
+# SCOL
 Site de vendas online

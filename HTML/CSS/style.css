@@ -55,7 +55,7 @@ body {
     bottom: 69.5%;
     border: 0;
 }
-#imagemprincipal {
+.imagemprincipal {
     max-width:200px;
     max-height:250px;
     width: auto;

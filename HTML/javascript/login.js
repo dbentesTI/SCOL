@@ -1,5 +1,5 @@
 function verificacao(login) {
-if (login.Email.value == "felipinhonet11@gmail.com" && login.Senha.value == "123") {
+if (login.Email.value == "felipinhonet11@gmail.com" && login.Senha.value == "Lipinho123") {
 location = "index3.html"
 }
 else {

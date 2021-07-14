@@ -11,13 +11,22 @@
 </head>
 <body>
     <img class="imagemprincipal" src="img/3.png" alt="scollogo">
-    <div class="formulario">
+    <div id="formulario">
         <form>
             <p>Cadastro</p>
+            <hr>
             <form>
-            <input type="email" placeholder="Email" required><br><br>
-            <input type="password" placeholder="Senha" required><br><br>
-            <button type="submit" class="btn btn-light"><a href="cadastroconfirmado.html" style="text-decoration:none; color: black;">Cadastrar</a></button><br><br>
+                <p>Email:</p>
+                <input name="Email" type="email" placeholder="Email" required><br><br>
+                <p>Senha:</p>
+                <input name="Senha" type="password" placeholder="Senha" required><br><br>
+                <p>Nome:</p>
+                <input name="nome" type="text" placeholder="Nome" required><br><br>
+                <p>Último Sobrenome:</p>
+                <input name="sobrenome" type="text" placeholder="Sobrenome" required><br><br>
+                <p>Número de celular: (DDD + 9 + num)</p>
+                <input name="celular" type="number" placeholder="Número de celular" required><br><br>
+                <button type="submit" class="btn btn-light"><a href="cadastroconfirmado.html" style="text-decoration:none; color: black;">Cadastrar</a></button><br><br>
             </form>
             <p class="cadastrologin">Já cadastrado? Faça <a href="index2.html">login!</a></p>
         </form>

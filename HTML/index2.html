@@ -13,16 +13,16 @@
 <body>
     <img class="imagemprincipal" src="img/3.png" alt="scollogo">
     <div id="formulariosegundo">
-        <form>
+        <form name="login">
             <p>Login</p>
             <hr>
-            <form name="login">
-            <input type="email" placeholder="Email"><br><br>
-            <input type="password" placeholder="Senha"><br><br>
-            <button type="submit" name="submitlo" value="login" class="btn btn-light"><a href="index3.html" style="text-decoration:none; color: black;">Login</a></button><br><br>
-            </form>
-            <p class="cadastrologin">Ainda não é cadastrado? Faça seu <a href="index.html">cadastro!</a></p>
+            <p>Email:</p>
+            <input name="Email" type="email" placeholder="Email" autocomplete="off"><br><br>
+            <p>Senha:</p>
+            <input name="Senha" type="password" placeholder="Senha" autocomplete="off"><br><br>
+            <input type="button" name="botao" value="Login" class="btn btn-light" onclick="verificacao(this.login)"><br><br>
         </form>
+        <p class="cadastrologin">Ainda não é cadastrado? Faça seu <a href="index.html">cadastro!</a></p>
     </div>
     <div id="Copyright">
         <hr size="5px">

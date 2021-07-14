@@ -7,8 +7,31 @@
     <title>Anunciar</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" href="img/3.png" type="image/gif" sizes="16x16">
+    <script src="javascript/script.js"></script>
 </head>
 <body>
-    
+    <img class="imagemprincipal" src="img/3.png" alt="scollogo">
+    <div id="divanuncio">
+        <div id="tituloanuncio">
+            <p>Faça seu anúncio gratuitamente:</p>
+        </div>
+        <div id="formularioanuncio">
+            <form>
+                <p>Nome do produto:</p>
+                <input type="text" placeholder="Nomeie do produto">
+                <p>Descrição:</p>
+                <input type="text" placeholder="Descreva o produto">
+                <p>Valor:</p>
+                <input type="number" placeholder="Dê um valor ao produto">
+                <div>
+                    <p>Imagens:</p>
+                    <input id="inputfile" type="file" name="imagens" title="Insira as imagens" class="btn btn-success"  accept="image/png, image/jpeg" multiple/> 
+                </div>
+            </form>
+        </div>
+        <div id="divbotao">
+            <button id="divbotaoanuncio" type="submit">Anunciar!</button>
+        </div>
+    </div>
 </body>
 </html>

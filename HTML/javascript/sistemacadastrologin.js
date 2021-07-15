@@ -12,9 +12,9 @@ function verificacaocadastro() {
     window.location.href = "cadastroconfirmado.html"
 }
 function verificacao() {
-    const loginemail = +localStorage.getItem('email')
-    const loginsenha = +localStorage.getItem('senha')
-    if (login.Emailha.value == `${loginemail}`  && login.Senhaha.value == `${loginsenha}`) {
+    var loginemail = +localStorage.getItem('email')
+    var loginsenha = +localStorage.getItem('senha')
+    if (login.Emailha.value == `${loginemail}`  && login.Senhaha.value == `${loginsenha}` ) {
     location = "index3.html"
     }
     else {

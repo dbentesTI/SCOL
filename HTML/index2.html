@@ -8,21 +8,28 @@
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" href="img/3.png" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
     <script src="javascript/sistemacadastrologin.js"></script>
 </head>
-<body>
+<body style="font-family: 'Comfortaa', cursive;">
     <img class="imagemprincipal" src="img/3.png" alt="scollogo">
     <div id="formulariosegundo">
         <form name="login">
-            <p>Login</p>
-            <hr>
-            <p>Email:</p>
-            <input name="Email" type="email" placeholder="Email" autocomplete="off"><br><br>
-            <p>Senha:</p>
-            <input name="Senha" type="password" placeholder="Senha" autocomplete="off"><br><br>
-            <input type="button" name="botao" value="Login" class="btn btn-light" onclick="verificacao(login)"><br><br>
-        </form>
-        <p class="cadastrologin">Ainda não é cadastrado? Faça seu <a href="index.html">cadastro!</a></p>
+            <p><b>Login</b></p>
+            <hr><br>
+            <div id="emaildologin">
+                <p><b>Email:</b></p>
+                <input id="Emailha" name="Email" type="email" placeholder="Email" autocomplete="off"><br><br><Br>
+            </div>
+            <div id="senhadologin">
+                <p><b>Senha:</b></p>
+                <input id="Senhaha" name="Senha" type="password" placeholder="Senha" autocomplete="off"><br><br>
+            </div><br>
+            <input type="button" name="botao" value="Login" class="btn btn-light" onclick="verificacao()"><br><br>
+        </form><br>
+        <p class="cadastrologin">Ainda não é cadastrado? Faça seu <a href="index.html" style="text-decoration: none; color: blue;">cadastro!</a></p>
     </div>
     <div id="Copyright">
         <hr size="5px">

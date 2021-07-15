@@ -11,10 +11,10 @@ function verificacaocadastro() {
     localStorage.setItem('celular', celularlogin)
     window.location.href = "cadastroconfirmado.html"
 }
-function verificacao(login) {
+function verificacao() {
     const loginemail = +localStorage.getItem('email')
     const loginsenha = +localStorage.getItem('senha')
-    if (login.Email.value == `${loginemail}`  && login.Senha.value == `${loginsenha}`) {
+    if (login.Emailha.value == `${loginemail}`  && login.Senhaha.value == `${loginsenha}`) {
     location = "index3.html"
     }
     else {

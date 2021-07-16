@@ -12,8 +12,8 @@ function verificacaocadastro() {
     window.location.href = "cadastroconfirmado.html"
 }
 function verificacao() {
-    const meuemail = +localStorage.getItem('email')
-    const minhasenha = +localStorage.getItem('senha')
+    const meuemail = localStorage.getItem('email')
+    const minhasenha = localStorage.getItem('senha')
     if (login.Email.value == (`${meuemail}`)  && login.Senha.value == (`${minhasenha}`)  ) {
     location = "index3.html"
     }

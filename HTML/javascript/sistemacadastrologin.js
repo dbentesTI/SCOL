@@ -37,5 +37,15 @@ function trocarfoto() {
     document.getElementById("fotodeperfil").setAttribute(src, (`${fotodeperfilnova}`))
 }
 function anunciar() {
-
+    const nomeproduto = document.getElementById("nomedoproduto").value
+    localStorage.setItem('nomedoproduto', nomeproduto)
+    const descricaoproduto = document.getElementById("descricaodoproduto").value
+    localStorage.setItem('descricao', descricaoproduto)
+    const valorproduto = document.getElementById("valordoproduto").value
+    localStorage.setItem('valor', valorproduto)
+    const imagemproduto = document.getElementById("inputfile").value
+    localStorage.setItem('imagemdoproduto', imagemproduto)
+    const servicoproduto = document.getElementById("opcoes").value
+    localStorage.setItem('servicoouproduto', servicoproduto)
+    window.location.href = "anuncioexito.html"
 }

@@ -24,15 +24,15 @@
             <form name="formanuncio" id="formdoanuncio">
                 <div id="nomeproduto">
                     <p><b>Nome do produto:</b></p>
-                    <input type="text" placeholder="Nomeie do produto">
+                    <input id="nomedoproduto" type="text" placeholder="Nomeie do produto">
                 </div><br>
                 <div id="descricao">
                     <p><b>Descrição:</b></p>
-                    <input type="text" placeholder="Descreva o produto">
+                    <input id="descricaodoproduto" type="text" placeholder="Descreva o produto">
                 </div><br>
                 <div id="valor">
                     <p><b>Valor:</b></p>
-                    <input type="number" placeholder="Dê um valor ao produto">
+                    <input id="valordoproduto" type="number" placeholder="Dê um valor ao produto">
                 </div><br>
                 <div id="imagemproduto">
                     <p><b>Imagens:</b></p>
@@ -46,7 +46,7 @@
                     </select>
                 </div><br><br>
                 <div id="divbotao">
-                    <button id="divbotaoanuncio" type="submit" onclick="anunciar()"><a href="anuncioexito.html" style="text-decoration:none; color:green ;">Anunciar!</a></button>
+                    <input id="divbotaoanuncio" type="button" name="divbotaoanunciar" value="Anunciar!" onclick="anunciar()">
                 </div>
             </form>
         </div>

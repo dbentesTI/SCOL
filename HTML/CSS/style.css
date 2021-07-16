@@ -42,30 +42,35 @@ body {
     border-radius: 8px;
     text-align: center;
     padding: 4px;
+    outline: 0px;
 }
 #emails > input {
     border: 0;
     border-radius: 8px;
     text-align: center;
     padding: 4px;
+    outline: 0px;
 }
 #senhas > input {
     border: 0;
     border-radius: 8px;
     text-align: center;
     padding: 4px;
+    outline: 0px;
 }
 #nomes > input {
     border: 0;
     border-radius: 8px;
     text-align: center;
     padding: 4px;
+    outline: 0px;
 }
 #sobrenomes > input {
     border: 0;
     border-radius: 8px;
     text-align: center;
     padding: 4px;
+    outline: 0px;
 }
 #formulariosegundo {
     text-align: center;
@@ -84,11 +89,13 @@ body {
     border: 0;
     border-radius: 8px;
     text-align: center;
+    outline: 0px;
 }
 #senhadologin > input {
     border: 0;
     border-radius: 8px;
     text-align: center;
+    outline: 0px;
 }
 .cadastrologin {
     font-size: 12px;
@@ -192,7 +199,6 @@ body {
     top: 48%;
     transform: translate(-50%, -50%);
     height: 560px;
-    border-radius: 8px;
     background-color:rgb(20, 221, 151);
     display: inline-block;
     font-family: 'Comfortaa', cursive;
@@ -233,4 +239,26 @@ body {
     width: 200px;
     border: 0;
     border-radius: 8px;
+}
+#nomeproduto > input {
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+    padding: 4px;
+    outline: 0px;
+}
+#descricao > input {
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+    padding: 4px;
+    outline: 0px;
+}
+#valor > input {
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+    padding: 4px;
+    width: 220px;
+    outline: 0px;
 }

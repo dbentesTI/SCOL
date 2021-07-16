@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
-    <script src="javascript/login.js"></script>
+    <script src="javascript/sistemacadastrologin.js"></script>
 </head>
 <body>
     <a href="index3.html"><img class="imagemprincipal" src="img/3.png" alt="scollogo" title="Retorne à homepage"></a>
@@ -21,7 +21,7 @@
                 <p><b>Faça seu anúncio:</b></p>
                 <hr size="5px">
             </div><br>
-            <form id="formdoanuncio">
+            <form name="formanuncio" id="formdoanuncio">
                 <div id="nomeproduto">
                     <p><b>Nome do produto:</b></p>
                     <input type="text" placeholder="Nomeie do produto">
@@ -38,8 +38,15 @@
                     <p><b>Imagens:</b></p>
                     <input id="inputfile" class="btn btn-success" type="file" name="imagens" title="Insira as imagens" accept="image/png, image/jpeg" multiple/> 
                 </div><br><br>
+                <div id="produtoouservico">
+                    <p><b>Serviço ou produto?</b></p>
+                    <select id="opcoes">
+                        <option>Serviço</option>
+                        <option>Produto</option>
+                    </select>
+                </div><br><br>
                 <div id="divbotao">
-                    <button id="divbotaoanuncio" type="submit"><a href="anuncioexito.html" style="text-decoration:none; color:green ;">Anunciar!</a></button>
+                    <button id="divbotaoanuncio" type="submit" onclick="anunciar()"><a href="anuncioexito.html" style="text-decoration:none; color:green ;">Anunciar!</a></button>
                 </div>
             </form>
         </div>

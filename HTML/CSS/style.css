@@ -197,9 +197,8 @@ body {
     width: 350px;
     top: 50%;
     left: 50%;
-    top: 48%;
     transform: translate(-50%, -50%);
-    height: 560px;
+    height: 700px;
     background-color:rgb(20, 221, 151);
     display: inline-block;
     font-family: 'Comfortaa', cursive;
@@ -217,7 +216,7 @@ body {
     position: absolute;
     width: 350px;
     left: 57%;
-    top: 83%;
+    top: 65.8%;
     transform: translate(-50%, -50%);
 }
 #divbotao {
@@ -390,4 +389,12 @@ label {
     left: 48.5%;
     top: 10.5%;
     transform: translate(-50%, -50%);
+}
+#opcoes {
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+    padding: 4px;
+    width: 220px;
+    outline: 0px;
 }

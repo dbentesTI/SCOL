@@ -36,3 +36,6 @@ function trocarfoto() {
     const fotodeperfilnova = document.getElementById("botaosubmitimagemperfil").value
     document.getElementById("fotodeperfil").setAttribute(src, (`${fotodeperfilnova}`))
 }
+function anunciar() {
+
+}

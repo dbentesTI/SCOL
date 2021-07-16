@@ -22,4 +22,17 @@ function verificacao() {
         login.Senha.value=""
         alert('Email ou senha não encontrados no sistema.')
     }
-    }
+}
+function perfiljavascript() {
+    const emaildoperfil = localStorage.getItem('email')
+    const nomedoperfil = localStorage.getItem('nome')
+    const sobrenomedoperfil = localStorage.getItem('sobrenome')
+    const celulardologin = +localStorage.getItem('celular')
+    document.getElementById("emailperfil").innerHTML = "Email: " + (`${emaildoperfil}`)
+    document.getElementById("nomeperfil").innerHTML = "Nome: " + (`${nomedoperfil}`) + " " + (`${sobrenomedoperfil}`)
+    document.getElementById("numeroperfil").innerHTML = "Número de telefone: " + (`${celulardologin}`)
+}
+function trocarfoto() {
+    const fotodeperfilnova = document.getElementById("botaosubmitimagemperfil").value
+    document.getElementById("fotodeperfil").setAttribute(src, (`${fotodeperfilnova}`))
+}

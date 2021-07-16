@@ -152,13 +152,14 @@ body {
     bottom: 78%;
 }
 #anuncio {
-    background-color: yellow;
+    background-color: orange;
     border-collapse: collapse;
     border-radius: 10px;
     position: absolute;
     right: 4%;
     bottom: 89%;
     width: 120px;
+    height: 32px;
     padding: 5px;
     border: 0;
 }
@@ -202,6 +203,7 @@ body {
     background-color:rgb(20, 221, 151);
     display: inline-block;
     font-family: 'Comfortaa', cursive;
+    border-radius: 13px;
     
 }
 #inputfile{
@@ -212,6 +214,11 @@ body {
     border-radius: 10px;
     padding: 5px;
     align-items: center;
+    position: absolute;
+    width: 350px;
+    left: 57%;
+    top: 83%;
+    transform: translate(-50%, -50%);
 }
 #divbotao {
     text-align: center;
@@ -261,4 +268,126 @@ body {
     padding: 4px;
     width: 220px;
     outline: 0px;
+}
+#botaoperfil {
+    position: absolute;
+    right: 13%;
+    bottom: 89%;
+    width: 120px;
+    padding: 5px;
+    border: 0;
+    background-color: orange;
+    border: 0;
+    border-radius: 8px;
+    font-size: 18px;
+}
+#a2 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#fotodeperfil {
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+#divperfil {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    top: 45.9%;
+    transform: translate(-50%, -50%);
+    height: 540px;
+    width: 350px;
+    border-radius: 8px;
+    background-color:rgb(20, 221, 151);
+    border: 0;
+    display: inline-block;
+}
+#formperfil {
+    text-align: center;
+    margin: 13px;
+}
+#inputimagemperfil {
+    border: 0;
+    border-radius: 12px;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+    padding:7px;
+    width: 200px;
+}
+#botaosubmitimagemperfil {
+    border: 0;
+    border-radius: 12px;
+    background-color:white;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+    padding:7px;
+    margin: 4px;
+}
+label {
+        border: 0;
+        border-radius: 13px;
+        padding: 7px;
+        font-size: 20px;
+        font-family: 'Comfortaa', cursive;
+}
+#fotinha > input[type='file'] {
+    color: transparent;
+}
+#informacoes {
+    margin: 5px;
+}
+#aviso {
+    border: 0;
+    border-radius: 5px;
+    background-color:rgb(20, 221, 151);
+    text-align: center;
+    font-size: 15px;
+    height: 55px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
+#aviso > p {
+    padding: 5px;
+    margin: 5px;
+}
+#retornodoperfil {
+    max-width:200px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 85%;
+    bottom: 78%;
+}
+#imagemproduto > input[type='file'] {
+    color: transparent;
+    background-color: transparent;
+    text-align: center;
+}
+#seusanuncios {
+    border: 1px solid rgb(243, 178, 0);
+    padding: 250px;
+    position: absolute;
+    top: 50%;
+    left: 58.5%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 600px;
+}
+#h1dadiv {
+    color: rgb(243, 178, 0);
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    top: 10.5%;
+    transform: translate(-50%, -50%);
 }

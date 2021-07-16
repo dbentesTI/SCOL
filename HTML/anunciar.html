@@ -5,32 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anunciar</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" href="img/scollogo.png" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
     <script src="javascript/login.js"></script>
 </head>
 <body>
     <a href="index3.html"><img class="imagemprincipal" src="img/3.png" alt="scollogo" title="Retorne à homepage"></a>
     <div id="divanuncio">
-        <div id="tituloanuncio">
-            <p>Faça seu anúncio gratuitamente:</p>
-        </div>
         <div id="formularioanuncio">
-            <form>
-                <p>Nome do produto:</p>
-                <input type="text" placeholder="Nomeie do produto">
-                <p>Descrição:</p>
-                <input type="text" placeholder="Descreva o produto">
-                <p>Valor:</p>
-                <input type="number" placeholder="Dê um valor ao produto">
-                <div>
-                    <p>Imagens:</p>
-                    <input id="inputfile" type="file" name="imagens" title="Insira as imagens" class="btn btn-success"  accept="image/png, image/jpeg" multiple/> 
+            <div id="tituloanuncio">
+                <p><b>Faça seu anúncio:</b></p>
+                <hr size="5px">
+            </div><br>
+            <form id="formdoanuncio">
+                <div id="nomeproduto">
+                    <p><b>Nome do produto:</b></p>
+                    <input type="text" placeholder="Nomeie do produto">
+                </div><br>
+                <div id="descricao">
+                    <p><b>Descrição:</b></p>
+                    <input type="text" placeholder="Descreva o produto">
+                </div><br>
+                <div id="valor">
+                    <p><b>Valor:</b></p>
+                    <input type="number" placeholder="Dê um valor ao produto">
+                </div><br>
+                <div id="imagemproduto">
+                    <p><b>Imagens:</b></p>
+                    <input id="inputfile" class="btn btn-success" type="file" name="imagens" title="Insira as imagens" accept="image/png, image/jpeg" multiple/> 
+                </div><br>
+                <div id="divbotao">
+                    <button id="divbotaoanuncio" type="submit"><a href="anuncioexito.html" style="text-decoration:none; color:green ;">Anunciar!</a></button>
                 </div>
             </form>
-        </div>
-        <div id="divbotao">
-            <button id="divbotaoanuncio" type="submit"><a href="anuncioexito.html" style="text-decoration:none">Anunciar!</a></button>
         </div>
     </div>
 </body>

@@ -179,17 +179,24 @@ body {
 }
 #tituloanuncio {
     font-size: 20px;
-    color: black;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 #formularioanuncio {
     text-align: center;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    border-radius: 5px;
-    padding: 10px;
+    padding: 35px;
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    height: 560px;
+    border-radius: 8px;
+    background-color:rgb(20, 221, 151);
+    display: inline-block;
+    font-family: 'Comfortaa', cursive;
+    
 }
 #inputfile{
     text-align: center;
@@ -198,19 +205,20 @@ body {
     border: 0;
     border-radius: 10px;
     padding: 5px;
+    align-items: center;
 }
 #divbotao {
     text-align: center;
 }
 #divbotaoanuncio {
     border: 0;
-    border-radius: 8px;
-    background-color:rgb(20, 221, 151);
+    border-radius: 12px;
+    background-color:white;
     text-align: center;
     color: black;
-    font-size: 20px;
+    font-size: 17px;
     cursor: pointer;
-    padding:5px;
+    padding:7px;
     margin: 4px;
 }
 #divsegunda {
@@ -219,4 +227,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+#imagemproduto > input {
+    text-align: center;
+    width: 200px;
+    border: 0;
+    border-radius: 8px;
 }

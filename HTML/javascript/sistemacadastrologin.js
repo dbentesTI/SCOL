@@ -35,9 +35,33 @@ function perfiljavascript() {
 function trocarfoto() {
     const fotodeperfilnova = document.getElementById("inputimagemperfil").value
     localStorage.setItem('fotonova', fotodeperfilnova)
-    const fotopronta = localStorage.getItem('fotonova')
-    document.getElementById("fotodeperfil").setAttribute("src", (`${fotopronta}`))
-    document.getElementById("fotodeperfil").src="img/nova.png"
+    const preview = document.querySelector('img');
+    const file = document.querySelector('input[type=file]').files[0];
+    const reader = new FileReader();
+    reader.addEventListener("load", function () {
+        // convert image file to base64 string
+        preview.src = reader.result;
+        preview.style.width = '200px';
+        preview.style.padding = '7px';
+      }, false);
+
+      if (file) {
+        reader.readAsDataURL(file);
+      }
+      localStorage.setItem('fotonova', preview)
+}
+function anunciar() {
+    const nomeproduto = document.getElementById("nomedoproduto").value
+    localStorage.setItem('nomedoproduto', nomeproduto)
+    const descricaoproduto = document.getElementById("descricaodoproduto").value
+    localStorage.setItem('descricao', descricaoproduto)
+    const valorproduto = document.getElementById("valordoproduto").value
+    localStorage.setItem('valor', valorproduto)
+    const imagemproduto = document.getElementById("inputfile").value
+    localStorage.setItem('imagemdoproduto', imagemproduto)
+    const servicoproduto = document.getElementById("opcoes").value
+    localStorage.setItem('servicoouproduto', servicoproduto)
+    window.location.href = "anuncioexito.html"
 }
 function anunciar() {
     const nomeproduto = document.getElementById("nomedoproduto").value

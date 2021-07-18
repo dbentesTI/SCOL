@@ -37,6 +37,7 @@ function trocarfoto() {
     localStorage.setItem('fotonova', fotodeperfilnova)
     const fotopronta = localStorage.getItem('fotonova')
     document.getElementById("fotodeperfil").setAttribute("src", (`${fotopronta}`))
+    document.getElementById("fotodeperfil").src="img/nova.png"
 }
 function anunciar() {
     const nomeproduto = document.getElementById("nomedoproduto").value

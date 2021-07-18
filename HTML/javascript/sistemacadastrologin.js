@@ -33,8 +33,10 @@ function perfiljavascript() {
     document.getElementById("numeroperfil").innerHTML = "Número de telefone: " + (`${celulardologin}`)
 }
 function trocarfoto() {
-    const fotodeperfilnova = document.getElementById("botaosubmitimagemperfil").value
-    document.getElementById("fotodeperfil").setAttribute(src, (`${fotodeperfilnova}`))
+    const fotodeperfilnova = document.getElementById("inputimagemperfil").value
+    localStorage.setItem('fotonova', fotodeperfilnova)
+    const fotopronta = localStorage.getItem('fotonova')
+    document.getElementById("fotodeperfil").setAttribute("src", (`${fotopronta}`))
 }
 function anunciar() {
     const nomeproduto = document.getElementById("nomedoproduto").value

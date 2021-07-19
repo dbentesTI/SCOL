@@ -74,5 +74,7 @@ function anunciar() {
     localStorage.setItem('imagemdoproduto', imagemproduto)
     const servicoproduto = document.getElementById("opcoes").value
     localStorage.setItem('servicoouproduto', servicoproduto)
+    const localizacaodoproduto = document.getElementById("cidade").value
+    localStorage.setItem('local', localizacaodoproduto)
     window.location.href = "anuncioexito.html"
 }

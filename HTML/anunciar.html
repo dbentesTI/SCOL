@@ -37,14 +37,18 @@
                 <div id="imagemproduto">
                     <p><b>Imagens:</b></p>
                     <input id="inputfile" class="btn btn-success" type="file" name="imagens" title="Insira as imagens" accept="image/png, image/jpeg" multiple/> 
-                </div><br><br>
+                </div><br>
                 <div id="produtoouservico">
                     <p><b>Serviço ou produto?</b></p>
                     <select id="opcoes">
                         <option>Serviço</option>
                         <option>Produto</option>
                     </select>
-                </div><br><br>
+                </div><br>
+                <div id="localizacao">
+                    <p><b>Insira sua localização: (Cidade/Estado)</b></p>
+                    <input type="text" name="local" placeholder="Insira sua cidade e UF" title="Insira sua cidade e UF" id="cidade">
+                </div><br>
                 <div id="divbotao">
                     <input id="divbotaoanuncio" type="button" name="divbotaoanunciar" value="Anunciar!" onclick="anunciar()">
                 </div>

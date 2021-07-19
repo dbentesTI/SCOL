@@ -435,3 +435,25 @@ label {
     font-size: large;
     text-align: center;
 }
+#segundoproduto {
+    border-radius: 13px;
+    width:150px;
+    height: 331px;
+    position: absolute;
+    top: 40%;
+    right: 70%;
+    padding: 15px;
+    color: black;
+    background-color:rgb(20, 221, 151);
+}
+#imagemmac {
+    width: 150px;
+    height: 200px;
+}
+#rediprodutodois {
+    text-decoration: none;
+}
+#textinhosegundo {
+    font-size: large;
+    text-align: center;
+}

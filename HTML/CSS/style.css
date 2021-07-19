@@ -415,3 +415,23 @@ label {
     color: black;
     font-size: 18px;
 }
+#primeiroproduto {
+    border-radius: 13px;
+    width:150px;
+    position: absolute;
+    top: 40%;
+    padding: 15px;
+    color: black;
+    background-color:rgb(20, 221, 151) ;
+}
+#imagemanne {
+    width: 150px;
+    height: 200px;
+}
+#redprodutoum {
+    text-decoration: none;
+}
+#textinho {
+    font-size: large;
+    text-align: center;
+}

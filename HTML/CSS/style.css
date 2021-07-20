@@ -181,7 +181,7 @@ body {
     padding: 5px;
     width: 340px;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -543,5 +543,53 @@ label {
     left: 48%;
 }
 #corpito {
+    height: 1010px;
+}
+#imagemdoproduto2 {
+    width: 300px;
+    border-radius: 13px;
+}
+#container2 {
+    border: 0;
+    background-color:rgb(20, 221, 151) ;
+    width: 850px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 45.9%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+#imagemdoproduto2 {
+    position: absolute;
+    left: 5%;
+    bottom: 40%;
+}
+#containerdovendedor2 {
+    background-color:rgb(20, 221, 151);
+    text-align: center;
+    width: 850px;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 115%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 0;
+}
+#classfotoperfil2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+#dados2 {
+    width: 300px;
+    position:relative;
+    left: 48%;
+}
+#corpinho {
     height: 1010px;
 }

@@ -474,3 +474,74 @@ label {
     outline: 0px;
     text-align: center;
 }
+.imagemdoproduto {
+    width: fit-content;
+    position: absolute;
+    left: 5%;
+    bottom: 8%;
+}
+#imagemdada {
+    width: 300px;
+    border-radius: 13px;
+}
+#container {
+    border: 0;
+    background-color:rgb(20, 221, 151) ;
+    width: 850px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 45.9%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+.dadosdoproduto {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    top: 45.9%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+}
+.nomedoprodutonocontainer {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px ;
+}
+.descricaodoprodutonocontainer {
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px ;
+}
+.precodoprodutonocontainer {
+    font-family: 'Comfortaa', cursive;
+    font-size: 19px ;
+    text-align: center;
+}
+#containerdovendedor {
+    background-color:rgb(20, 221, 151);
+    text-align: center;
+    width: 850px;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 115%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 0;
+    
+}
+#classfotoperfil {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+#dados {
+    width: 300px;
+    position:relative;
+    left: 48%;
+}
+#corpito {
+    height: 1010px;
+}

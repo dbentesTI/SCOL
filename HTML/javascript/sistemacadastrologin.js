@@ -39,7 +39,6 @@ function trocarfoto() {
     const file = document.querySelector('input[type=file]').files[0];
     const reader = new FileReader();
     reader.addEventListener("load", function () {
-        // convert image file to base64 string
         preview.src = reader.result;
         preview.style.width = '200px';
         preview.style.padding = '7px';
